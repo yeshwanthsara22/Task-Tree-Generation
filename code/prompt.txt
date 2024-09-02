@@ -1,0 +1,409 @@
+
+Title: Generate Task Tree (JSON) for Dish Preparation - Broken Down
+Description: You've been tasked with creating a JSON-formatted task tree for preparing a dish using specific ingredients. The dish name and required ingredients are specified below. Use the ingredients available in the kitchen. If any necessary ingredients are missing, suggest alternatives if possible. If no alternatives are available, return an error indicating that the ingredients are not available.
+
+Objective: Develop a JSON task tree for preparing the specified dish using only the ingredients available in the kitchen.
+Scenario: You're preparing a dish called [name of the dish]. The required ingredients for this dish are [list of ingredients]. Your kitchen is stocked with the following items: <kitchen>. Your goal is to create a task tree outlining the step-by-step process of preparing the dish using the available ingredients. If any required ingredients are missing, use alternatives present in the kitchen (e.g., using honey instead of sugar). If a vegetable ingredient is missing, use another alternative vegetable ingredient, and vice versa.
+
+Instructions:
+* Use the provided JSON format to outline the task tree for preparing the dish.
+* Ensure each step in the task tree includes input nodes, motion nodes (actions), and output nodes.
+* If any ingredients are unavailable, suggest alternatives if possible. If not, handle the situation appropriately.
+* Return the output in the specified JSON structure.
+
+Error Structure:
+[{"error":"Ingredients are not available"}]
+
+Object Structure:
+[
+  {
+    "input_nodes": [
+      {
+        "label": "[Label of Input Node]",
+        "states": ["[State of Input Node]"],
+        "ingredients": [],
+        "container": "[Container]"
+      },
+      ...
+    ],
+    "motion_node": "[Motion]",
+    "output_nodes": [
+      {
+        "label": "[Label of Output Node]",
+        "states": ["[State of Output Node]"],
+        "ingredients": ["[Ingredient 1]", "[Ingredient 2]", ...],
+        "container": "[Container]"
+      },
+      ...
+    ]
+  }
+]
+
+Example:
+example 1:
+Step 1:
+•	Gather Ingredients: The task tree includes a motion node "gather" to gather the spinach, but it doesn't specify which ingredients are needed, which is essential based on the text instructions.
+•	Rinse and Dry Missing: The task tree doesn't include a step for rinsing and drying the spinach, which is mentioned in the text.
+Step 2:
+•	Place in Bowl Missing: The task tree should include a step to place the rinsed and dried spinach in a bowl, which is mentioned in the text.
+Step 3:
+•	Add Sliced Strawberries: The task tree correctly includes a step to add sliced strawberries to the bowl.
+Step 4:
+•	Add Halved Orange Slices: The task tree correctly includes a step to add halved orange slices to the bowl.
+Step 5:
+•	Add Sliced Olives and Chopped Nuts: The task tree correctly includes a step to add sliced olives and chopped nuts to the bowl.
+Step 6:
+•	Drizzle with Honey: The task tree correctly includes a step to drizzle thick honey sauce over the salad.
+Step 7:
+•	Add Thick Mustard Sauce: The task tree correctly includes a step to add thick mustard sauce to the salad.
+Step 8:
+•	Add Liquid Oil: The task tree correctly includes a step to add liquid oil to the salad.
+Step 9:
+•	Toss Ingredients: The task tree correctly includes a step to toss the ingredients together until everything is well-coated.
+Step 10:
+•	Serve and Enjoy: The task tree doesn't explicitly include a step to serve and enjoy the salad, which is typically the final step in a recipe. However, this can be assumed as the concluding action.
+
+Below is an example demonstrating how to structure the task tree for preparing the dish:
+[
+  {
+    "input_nodes": [
+      {
+        "label": "spinach",
+        "states": ["leaf"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "strawberry",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "orange",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "olive",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "nut",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "honey",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "mustard",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "liquid",
+        "states": ["oil"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "gather",
+    "output_nodes": [
+      {
+        "label": "spinach",
+        "states": ["leaf"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "strawberry",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "orange",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "olive",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "nut",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "honey",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "mustard",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "oil",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "spinach",
+        "states": ["leaf"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "strawberry",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "orange",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "olive",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "nut",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "honey",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "mustard",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "liquid",
+        "states": ["oil"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "rinse-and-dry",
+    "output_nodes": [
+      {
+        "label": "spinach",
+        "states": ["leaf"],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "spinach",
+        "states": ["leaf"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "place",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "strawberry",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "orange",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "olive",
+        "states": ["sliced"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange", "olive"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "nut",
+        "states": ["halved"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange", "olive", "nut"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "honey",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange", "olive", "nut", "honey"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "mustard",
+        "states": ["liquid"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange", "olive", "nut", "honey", "mustard"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "liquid",
+        "states": ["oil"],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange", "olive", "nut", "honey", "mustard", "oil"],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": ["spinach", "strawberry", "orange", "olive", "nut", "honey", "mustard", "oil"],
+        "container": null
+      }
+    ],
+    "motion_node": "toss",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": ["mixed"],
+        "ingredients": ["spinach", "strawberry", "orange", "olive", "nut", "honey", "mustard", "oil"],
+        "container": null
+      }
+    ]
+  }
+]
+
+Guidelines:
+* Replace placeholders with actual details such as the dish name, required ingredients, and available kitchen items.
+* Provide clear and detailed instructions for generating the task tree.
+* Ensure completeness and accuracy in the task tree structure.
+* Handle missing ingredients appropriately, either by suggesting alternatives or returning an error message.

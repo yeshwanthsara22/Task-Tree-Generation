@@ -1,0 +1,394 @@
+[
+  {
+    "category": "blended smoothie",
+    "menu": [
+      {
+        "dish": "Hash-Brown-Potato-Patty",
+        "ingredients": [
+          "POTATOES",
+          "VEGETABLE OIL",
+          "ONION",
+          "DEXTROSE",
+          "SALT",
+          "SODIUM ACID PYROPHOSPHATE"
+        ]
+      },
+      {
+        "dish": "Crisp-lightly-smoked-bacon-strips",
+        "ingredients": [
+          "PORK",
+          "WATER",
+          "SALT",
+          "SUGAR",
+          "SODIUM PHOSPHATES",
+          "SODIUM ERYTHORBATE",
+          "SODIUM NITRITE"
+        ]
+      },
+      {
+        "dish": "Turkey-Sausage-Patty",
+        "ingredients": ["TURKEY SAUSAGE"]
+      },
+      {
+        "dish": "Fried Just Egg",
+        "ingredients": [
+          "WATER",
+          "MUNG BEAN PROTEIN ISOLATE",
+          "EXPELLER-PRESSED CANOLA OIL",
+          "CORN STARCH",
+          "CONTAINS LESS THAN 2% OF BAKING POWDER",
+          "SODIUM ACID PYROPHOSPHATE",
+          "SODIUM BICARBONATE",
+          "CORN STARCH",
+          "MONOCALCIUM PHOSPHATE",
+          "DEHYDRATED GARLIC",
+          "DEHYDRATED ONION",
+          "CARROT EXTRACT (COLOR)",
+          "TURMERIC EXTRACT",
+          "SALT",
+          "TRANSGLUTAMINASE",
+          "VEGETABLE OIL BLEND",
+          "OLIVE OIL"
+        ]
+      },
+      {
+        "dish": "Scrambled-Eggs",
+        "ingredients": [
+          "WHOLE EGGS",
+          "19.0% WATER",
+          "SALT",
+          "XANTHAN GUM",
+          "CITRIC ACID",
+          "ANNATTO (COLOR)",
+          "NATURAL BUTTER FLAVOR",
+          "SUNFLOWER OIL",
+          "NATURAL FLAVORS",
+          "MEDIUM CHAIN TRIGLYCERIDES"
+        ]
+      },
+      {
+        "dish": "Tofu-Potato-Hash",
+        "ingredients": [
+          "TOFU",
+          "RUSSET POTATO",
+          "MEDIUM SALSA",
+          "ONION",
+          "GREEN PEPPER",
+          "VEGETABLE OIL BLEND",
+          "PARSLEY",
+          "SALT",
+          "GARLIC POWDER",
+          "BLACK PEPPER"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Grillhouse",
+    "menu": [
+      {
+        "dish": "Brunch Burger",
+        "ingredients": [
+          "ANGUS BEEF PATTY",
+          "HASH BROWN POTATO",
+          "HAMBURGER ROLL",
+          "EGG",
+          "BACON",
+          "ONION",
+          "AMERICAN CHEESE",
+          "PANCAKE SYRUP",
+          "KETCHUP",
+          "VEGETABLE OIL BLEND",
+          "BLACK PEPPER"
+        ]
+      },
+      {
+        "dish": "Grilled-Herb-Chicken-Sandwich",
+        "ingredients": [
+          "CHICKEN BREAST",
+          "ROLL",
+          "ORANGE JUICE",
+          "VEGETABLE OIL BLEND",
+          "GARLIC",
+          "BLACK PEPPER",
+          "DRIED THYME LEAF",
+          "DRIED BASIL"
+        ]
+      },
+      {
+        "dish": "Char-Grilled-Turkey-Burger",
+        "ingredients": ["TURKEY BURGER", " ROLL"]
+      },
+      {
+        "dish": "Grilled-black-bean-burger-on-a-bun",
+        "ingredients": ["BLACK BEAN VEGGIE BURGER", "ROLL"]
+      },
+      {
+        "dish": "Hamburger",
+        "ingredients": ["BEEF PATTY", "ROLL"]
+      },
+      {
+        "dish": "Dill-pickle-slices",
+        "ingredients": ["PICKLE SLICES "]
+      },
+      {
+        "dish": "Green-Leaf-Lettuce",
+        "ingredients": ["LETTUCE"]
+      },
+      {
+        "dish": "Sliced-Red-Onions",
+        "ingredients": ["Onion"]
+      },
+      {
+        "dish": "Sliced-Tomatoes",
+        "ingredients": ["Tomato"]
+      },
+      {
+        "dish": "Crispy-Chicken-Sandwich",
+        "ingredients": ["CHICKEN BREAST PATTY", "ROLL"]
+      },
+      {
+        "dish": "Sliced-American-Cheese",
+        "ingredients": [
+          "AMERICAN CHEESE",
+          "AMERICAN CHEESE (MILK, CHEESE CULTURE, SALT, ENZYMES)",
+          "WATER",
+          "CREAM",
+          "POTASSIUM CITRATE",
+          "SODIUM CITRATE",
+          "SORBIC ACID AS A PRESERVATIVE",
+          "COLOR ADDED",
+          "SUNFLOWER LECITHIN (RELEASE AGENT)."
+        ]
+      },
+      {
+        "dish": "Cheddar-Cheese",
+        "ingredients": [
+          "CHEDDAR CHEESE",
+          "PASTEURIZED MILK",
+          "CHEESE CULTURE",
+          "SALT",
+          "ENZYMES",
+          "ANNATTO (VEGETABLE COLOR)."
+        ]
+      },
+      {
+        "dish": "Crispy-Shoestring-French-Fries",
+        "ingredients": [
+          "FRENCH FRIES",
+          "POTATOES",
+          "VEGETABLE OIL ",
+          "POTATO STARCH ",
+          "DEXTROSE",
+          "LEAVENING ",
+          "PEA FIBER",
+          "PEA PROTEIN",
+          "RICE FLOUR",
+          "SALT",
+          "SODIUM ACID PYROPHOSPHATE ADDED TO MAINTAIN COLOR",
+          "XANTHAN GUM"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Truebalance",
+    "menu": [
+      {
+        "dish": "Butternut Squash Bisque",
+        "ingredients": [
+          "WATER",
+          "SWEET POTATO",
+          "BUTTERNUT SQUASH",
+          "CARROTS",
+          "CELERY",
+          "ONION",
+          "VEGETABLE BASE",
+          "VEGETABLE OIL BLEND",
+          "GINGERROOT",
+          "SALT",
+          "PUMPKIN PIE SPICE",
+          "BLACK PEPPER",
+          "NUTMEG",
+          "THYME"
+        ]
+      },
+      {
+        "dish": "Seasoned Rice",
+        "ingredients": [
+          "water",
+          "white rice",
+          "CANOLA OIL",
+          "SALT",
+          "BLACK PEPPER"
+        ]
+      },
+      {
+        "dish": "Spicy Sweet Potato Salad",
+        "ingredients": [
+          "SWEET POTATO",
+          "GREEN CHILI PEPPERS",
+          "CANOLA OIL",
+          "GREEN ONION",
+          "CELERY",
+          "RED BELL PEPPER",
+          "CANOLA OIL",
+          "LIME JUICE",
+          "SEASONING",
+          "SALT",
+          "BLACK PEPPER",
+          "SALT",
+          "TABASCO HOT SAUCE",
+          "CILANTRO",
+          "ORANGE ZEST"
+        ]
+      },
+      {
+        "dish": "Chicken & Veggie Stri-Fry",
+        "ingredients": [
+          "CHICKEN THIGH",
+          "BROCCOLI",
+          "CHICKEN BREAST",
+          "ONION",
+          "WATER CHESTNUTS",
+          "RED BELL PEPPER",
+          "VEGETABLE OIL BLEND ",
+          "GARLIC",
+          "GINGERROOT"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Hotspot",
+    "menu": [
+      {
+        "dish": "Cinnamon Whole Wheat French Toast",
+        "ingredients": [
+          "WHOLE WHEAT BREAD",
+          "LIQUID EGG WHITES",
+          "2% MILK",
+          "GRANULATED SUGAR",
+          "CINNAMON"
+        ]
+      },
+      {
+        "dish": "French Toast",
+        "ingredients": [
+          "TEXAS TOAST",
+          "EGG BLEND",
+          "2% MILK",
+          "GRANULATED SUGAR",
+          "VANILLA EXTRACT",
+          "CINNAMON",
+          "NUTMEG"
+        ]
+      },
+      {
+        "dish": "Vegan Home-Style Pancakes",
+        "ingredients": [
+          "SOY MILK ",
+          "WHEAT FLOUR ",
+          "SUGAR IN THE RAW",
+          "VEGETABLE OIL BLEND ",
+          "BAKING POWDER",
+          "VANILLA EXTRACT",
+          "SALT"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Slice",
+    "menu": [
+      {
+        "dish": "Classic Cheese Pizza",
+        "ingredients": [
+          "ALL PURPOSE FLOUR ",
+          "MOZZARELLA CHEESE ",
+          "WATER",
+          "PIZZA SAUCE ",
+          "VEGETABLE OIL BLEND ",
+          "SALT",
+          "GRANULATED SUGAR",
+          "YEAST"
+        ]
+      },
+      {
+        "dish": "Pepperoni Pizza",
+        "ingredients": [
+          "ALL PURPOSE FLOUR ",
+          "MOZZARELLA CHEESE ",
+          "WATER",
+          "PIZZA SAUCE ",
+          "DELI PEPPERONI ",
+          "VEGETABLE OIL BLEND ",
+          "SALT",
+          "GRANULATED SUGAR",
+          "YEAST"
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "cup cakes",
+    "menu": [
+      {
+        "dish": "Vegan Pecan Shortbread",
+        "ingredients": [
+          "WHEAT FLOUR ",
+          "BANANA",
+          "GRANULATED SUGAR",
+          "VEGETABLE OIL BLEND ",
+          "PECANS",
+          "VANILLA EXTRACT",
+          "SALT",
+          "CINNAMON"
+        ]
+      },
+      {
+        "dish": "Chocolate Chip Cookie",
+        "ingredients": [
+          "CHOCOLATE CHIP COOKIE ",
+          "SUGAR",
+          "PALM OIL",
+          "SEMI-SWEET CHOCOLATE CHIPS",
+          "CHOCOLATE FLAVORED CONFECTIONARY CHIPS ",
+          "MARGARINE ",
+          "WATER",
+          "EGGS",
+          "DEXTROSE",
+          "MOLASSES",
+          "WHEAT STARCH",
+          "BAKING SODA",
+          "SALT",
+          "NATURAL AND ARTIFICIAL FLAVOR.)"
+        ]
+      },
+      {
+        "dish": "Sugar Cookie",
+        "ingredients": [
+          "SUGAR COOKIE",
+          "SUGAR",
+          "MARGARINE ",
+          "EGGS",
+          "INVERT SUGAR",
+          "SALT",
+          "BAKING SODA",
+          "DEGATTED SOY FLOUR"
+        ]
+      },
+      {
+        "dish": "Maple Pecan Donut Bites",
+        "ingredients": [
+          "DOUGH ",
+          "POWDERED SUGAR",
+          "MAPLE SYRUP ",
+          "PECANS",
+          "WATER"
+        ]
+      }
+    ]
+  }
+]
